@@ -1,5 +1,5 @@
 # Pretraining_T5_custom_dataset
-Continue Pretraining T5 on custom dataset based on available pretrained model checkpoints
+Continue Pretraining T5 on custom dataset
 
 Pretrained models from [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683) are made available from [Huggingface](https://huggingface.co/transformers/model_doc/t5.html). This is the code for continuing the pretraining phase of T5 on custom dataset. This code follows the same unsupervised pretraining objective followed by the original paper. Details of the T5 style pretraining can be found in the [paper](https://arxiv.org/abs/1910.10683).
 
