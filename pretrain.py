@@ -510,8 +510,8 @@ if __name__ == '__main__':
         output_dir="", # path to save the checkpoints
         model_name_or_path=hparam.model,
         tokenizer_name_or_path=hparam.model,
-        max_input_length=hparam.input_length,
-        max_output_length=hparam.output_length,
+        max_input_length=int(hparam.input_length),
+        max_output_length=int(hparam.output_length),
         freeze_encoder=False,
         freeze_embeds=False,
         learning_rate=1e-5,
